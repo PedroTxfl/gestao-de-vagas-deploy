@@ -76,7 +76,7 @@ O projeto **Gerenciamento de Vagas de Trabalho** é uma aplicação Java que per
 
 Após iniciar a aplicação, você pode acessar a documentação da API via Swagger em:
 
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui.html#/
 
 
 ## Endpoints
