@@ -6,7 +6,6 @@ Bem-vindo ao repositório do projeto **Gerenciamento de Vagas de Trabalho**. Est
 
 - [Visão Geral](#visão-geral)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
 - [Uso](#uso)
 - [Endpoints](#endpoints)
 - [Contato](#contato)
@@ -28,56 +27,12 @@ O projeto **Gerenciamento de Vagas de Trabalho** é uma aplicação Java que per
 - JPA
 - Swagger/OpenAPI para documentação da API
 
-## Instalação
 
-### Instalação Local
-
-1. Clone o repositório:
-    ```sh
-    git clone https://github.com/PedroTxfl/Gerenciamento-de-vagas-de-trabalho.git
-    ```
-
-2. Navegue até o diretório do projeto:
-    ```sh
-    cd Gerenciamento-de-vagas-de-trabalho
-    ```
-
-3. Compile e execute a aplicação:
-    ```sh
-    ./mvnw spring-boot:run
-    ```
-
-### Usando Docker Compose
-
-1. Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina. Se não tiver, você pode seguir as instruções de instalação no site oficial do [Docker](https://docs.docker.com/get-docker/) e [Docker Compose](https://docs.docker.com/compose/install/).
-
-2. Clone o repositório:
-    ```sh
-    git clone https://github.com/PedroTxfl/Gerenciamento-de-vagas-de-trabalho.git
-    ```
-
-3. Navegue até o diretório do projeto:
-    ```sh
-    cd Gerenciamento-de-vagas-de-trabalho
-    ```
-
-4. Execute o Docker Compose para construir e iniciar os contêineres:
-    ```sh
-    docker-compose up --build
-    ```
-
-   Isso irá construir as imagens Docker e iniciar os contêineres definidos no arquivo `docker-compose.yml`.
-
-5. Acesse a aplicação em:
-    ```
-    http://localhost:8080
-    ```
 ## Uso
 
-Após iniciar a aplicação, você pode acessar a documentação da API via Swagger em:
+Você pode acessar a documentação da API via Swagger em:
 
-http://localhost:8080/swagger-ui.html#/
-
+https://gestao-de-vagas-deploy-production.up.railway.app/swagger-ui/index.html
 
 ## Endpoints
 
