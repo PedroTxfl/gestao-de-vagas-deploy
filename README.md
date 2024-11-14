@@ -26,6 +26,7 @@ O projeto **Gerenciamento de Vagas de Trabalho** é uma aplicação Java que per
 - Hibernate
 - JPA
 - Swagger/OpenAPI para documentação da API
+- Deploy com Railway
 
 
 ## Uso
